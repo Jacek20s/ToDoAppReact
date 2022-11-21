@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card{
+  padding: 10px;
+  border: 1px solid #cdcdcd;
+  text-align: center;
+  margin: 20px;
+}
+.card.completed{
+  opacity: 0,2;
+
+}
+.card.completed h2{
+  text-decoration: line-through;
+  color: red;
+  opacity: 0,5;
+
 }
